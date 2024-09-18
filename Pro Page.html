@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AutoElite - Innovación en Movimiento</title>
+    <link rel="stylesheet" href="Pro Page styles.css">
+    <link href="CSS\Pro Page Stylesheet.css" rel="Pro Page Stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AutoElite</div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Modelos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Innovación en Movimiento</h1>
+            <p>Redefiniendo el futuro de la movilidad con autos de diseño elegante y tecnología avanzada.</p>
+            <a href="#modelos" class="btn">Explorar Modelos</a>
+        </div>
+    </section>
+
+    <section id="modelos">
+        <h2>Modelos Destacados</h2>
+        <div class="models">
+            <div class="model modelo-3d">
+                <img src="IMG/de-tomaso-p72_.jpg" alt="Auto Deportivo">
+                <h3>AutoElite Sport</h3>
+                <p>Un auto deportivo que combina potencia y elegancia.</p>
+            </div>
+            <div class="model modelo-3d">
+                <img src="IMG/ferrari-purosangue-a-9-2.avif" alt="Auto SUV">
+                <h3>AutoElite SUV</h3>
+                <p>Comodidad y tecnología para cualquier aventura.</p>
+            </div>
+            <div class="model modelo-3d">
+                <img src="IMG/rimac-nevera-r-.jpg" alt="Auto Eléctrico">
+                <h3>AutoElite Eléctrico</h3>
+                <p>Eficiencia y sostenibilidad con el máximo rendimiento.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cubo-3d">
+        <h2>Características del Cubo</h2>
+        <div class="cubo">
+            <div class="cara cara1">Lujo</div>
+            <div class="cara cara2">Potencia</div>
+            <div class="cara cara3">Exclusividad</div>
+            <div class="cara cara4">Innovación</div>
+            <div class="cara cara5">Rendimiento</div>
+            <div class="cara cara6">Elegancia</div>
+        </div>
+    </section>
+
+    <!-- Nueva Sección de Paginación -->
+    <section id="paginacion">
+        <h2>Descubre más sobre AutoElite</h2>
+        <p>Nuestra gama de modelos se actualiza constantemente. Navega a través de nuestras ofertas y encuentra el auto perfecto para ti.</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="IMG\t-50.avif" alt="Modelo 4">
+                <h3>Modelo Delta</h3>
+                <p>Un diseño innovador que combina elegancia y eficiencia.</p>
+            </div>
+            <div class="grid-item">
+                <img src="IMG\aston-martin-valkyrie.avif" alt="Modelo 5">
+                <h3>Modelo Epsilon</h3>
+                <p>La perfección en cada detalle, para una experiencia inigualable.</p>
+            </div>
+            <div class="grid-item">
+                <img src="IMG\nilu27.avif" alt="Modelo 6">
+                <h3>Modelo Zeta</h3>
+                <p>La tecnología más avanzada en un solo vehículo.</p>
+            </div>
+        </div>
+        <div class="pagination">
+            <a href="#prev">« Anterior</a>
+            <a href="CSS\Paginacion.html">1</a>
+            <a href="#page2">2</a>
+            <a href="#page3">3</a>
+            <a href="#next">Siguiente »</a>
+        </div>
+    </section>
+
+    <!-- Formulario POST -->
+    <section id="registro-post">
+        <center><h2>Regístrate para comprar un coche (POST)</h2></center>
+        <form method="post" action="Registro.php">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+            <label for="modelo">Modelo de coche:</label>
+            <select id="modelo" name="modelo">
+                <option value="deportivo">Deportivo</option>
+                <option value="suv">SUV</option>
+                <option value="electrico">Eléctrico</option>
+            </select><br><br>
+            <input type="submit" value="Registrarse">
+        </form>
+    </section>
+
+    <!-- Formulario GET -->
+    <section id="registro-get">
+        <center><h2>Regístrate para comprar un coche (GET)</h2></center>
+        <form method="get" action="https://example.com/register-get">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+            <label for="modelo">Modelo de coche:</label>
+            <select id="modelo" name="modelo">
+                <option value="deportivo">Deportivo</option>
+                <option value="suv">SUV</option>
+                <option value="electrico">Eléctrico</option>
+            </select><br><br>
+            <input type="submit" value="Registrarse">
+        </form>
+    </section>
+
+    <section id="social-media">
+        <h2>Redes Sociales</h2>
+        <ul>
+            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AutoElite. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
